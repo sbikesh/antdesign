@@ -1,7 +1,7 @@
 {
   "version": 5,
   "source": {
-    "tokensFile": "src/tokens/tokens.json"
+    "tokensFile": "tokens.json"
   },
   "target": {
     "jsonsDir": "src/tokens"
