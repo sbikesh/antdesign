@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npx figma-tokens-transformer transform && react-scripts build",
     "test": "react-scripts test",
     "token": "npx figma-tokens-transformer transform",
     "eject": "react-scripts eject"
