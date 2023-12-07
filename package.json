@@ -1,4 +1,5 @@
 {
+  "homepage": "http://{sbikesh}.github.io/{antdesign}",
   "name": "antd-demo1",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +14,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-"homepage": "http://{sbikesh}.github.io/{antdesign}",
+
   "scripts": {
     "start": "react-scripts start",
     "build": "npx figma-tokens-transformer transform && react-scripts build",
