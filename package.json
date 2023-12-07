@@ -17,12 +17,13 @@
 
   "scripts": {
     "start": "react-scripts start",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "npx figma-tokens-transformer transform && react-scripts build",
     "test": "react-scripts test",
     "token": "npx figma-tokens-transformer transform",
     "eject": "react-scripts eject"
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+   
   },
   "eslintConfig": {
     "extends": [
